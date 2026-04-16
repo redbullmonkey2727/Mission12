@@ -1,0 +1,23 @@
+# .NET
+**/bin/
+**/obj/
+
+# Rider / VS
+.idea/
+.vs/
+.vscode/
+*.user
+*.suo
+
+# Node
+**/node_modules/
+**/dist/
+**/.vite/
+
+# SQLite runtime sidecar files (the .sqlite file itself IS tracked)
+*.sqlite-shm
+*.sqlite-wal
+
+# OS
+.DS_Store
+Thumbs.db
